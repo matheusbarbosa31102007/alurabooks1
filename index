@@ -1,32 +1,49 @@
 <DOCTYPE html>
     <html>
-
-  <head>
-  <meta charset="UTF-8"
-  <meta name="viewport"content=width=device-width,initial-scale=1.0>
-  <title>ALURABOOKS1</title>
-  <link rel="styleheet"href="reset.css">
-  <link rel="styleheet"href="stylr.cdd">
-  </head>
-
- <body>
-    <header class="cabeçalho">
-        <div class="container">
-            <input type="checkbox" id="menu" class="container__botao"
-            <label for="menu">
-            <spam class="cabeçalho_menu-hamburguer"
-         </label>
-         <ul class="lista menu">
-
-         </ul>
-            <img src="img/Logo.svg" alt="Logo da Alurabooks1"
-        <div
-        <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos"></a>
-         <a href="#"><img src="img/compras.svg"   alt="Carrinhos de compras"></a>
-         <a href="#"><img src="img/usuario.svg"   alt="Meu perfil"></a>
-        </div>
-</header>
-
-</body>
-
+    
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALURA BOOKS</title>
+    <link rel="styleheet" href="reset.css">
+    <link rel="styleheet" href="style.css">
+    </head>
+    
+    <body>
+       <header class="cabeçalho">
+            <div class="container">
+                <imput type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                <span class="cabeçalho_menu-hambuguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Progamação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
+                <img src="img/Logo.svg" alt="Logo da Alurabooks"  class="container_imagem">
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
+                <a href="#"><img src="img/compras.svg"   alt="Carrinhos de compras" class="container_imagem"></a>
+                <a href="#"><img src="img/usuario.svg"   alt="Meu perfil" class="container_imagem"></a>
+            </div>
+       </header>
+    </body>
+    
     </html>
+    
+    
